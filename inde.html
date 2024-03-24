@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Advisor Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #444;
+        }
+
+        header {
+            background-color: #4CAF50;
+            /* Green header */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        hr {
+            height: 2px;
+            width: 80%;
+            background-color: gray;
+            color: violet;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            text-align: center;
+            /* border: 2px dotted rgb(0, 255, 119); */
+            padding: 20px;
+        }
+
+        .profile-img {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .job {
+            margin-top: 50px;
+        }
+
+        .service-img {
+            display: block;
+            margin: auto;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .company-img-container {
+            text-align: center;
+        }
+
+        .company-img {
+            display: inline-block;
+            margin: 10px;
+            max-width: 150px;
+        }
+
+        .carousel-container {
+            max-width: 780px;
+            /* Set your desired width here */
+            margin: auto;
+            padding-top: 10px;
+        }
+
+        .high {
+            max-height: 200px;
+        }
+
+        .service-img {
+            max-width: 230px;
+            max-height: 200px;
+            /* Set your desired width here */
+            margin: auto;
+        }
+
+        .desciption {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        .planing {
+            text-align: center;
+            color: #444;
+        }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rohit Patel</h1>
+        <p>Financial Advisor</p>
+    </header>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <hr>
+        <br>
+        <p>ફેબ્રુઆરી 2005માર્ચ lic ની ન્યુ એજન્ટ તરીકે શરૂઆત કરી 31 માર્ચ સુધીમાં 80 પોલિસી કરીને કારકિર્દીની શરૂઆત કરી
+            હતી પછી ધીરે ધીરે કામ સારું ને સારું થતું ગયું. આનો શ્રેય દરેક સ્નેહીજનો મિત્રો અને કુટુંબીજનો
+            અને દરેક સંબંધની ઘણો બધો ફાળો છે 2013માં lic માં પ્રમોશન લઈને CLIA સ્ટાર્ટ કરીએ અને તેમાં બી દરેકના સપોર્ટ
+            થઈ પ્રગતિ વધારે ને વધારે સ્ટાર્ટ થઈ જાય અને હાલની તારીખમાં તારે ઇન્સ્યોરન્સ 70 મિત્રોની ટીમ છે અને lic માં
+            પણ 70 થી વધારે મિત્રો ની ટીમ છે અને દર વર્ષે સારું ને સારું કામ થતું જાય છે અને દર વર્ષે પ્રગતિ વધતી જાય છે
+        </p>
+    </div>
+
+    <div class="carousel-container">
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner services-container">
+                <div class="carousel-item active high">
+                    <img src="./img1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item high">
+                    <img src="./img111.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item high">
+                    <img src="./img2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Services</h2>
+        <hr>
+        <div class="job">
+            <img class="service-img" src="https://www.icicidirect.com/Content/images/retirement_banner_mobile_2.png"
+                alt="Investment Planning Image">
+            <h3 class="planing">Retarment Planning</h3>
+            <p class="desciption">પ્રશ્ન એ નથી કે હું કઈ ઉંમરે નિવૃત્ત થવા માંગુ છું, પરંતુ હું કઈ આવક પર નિવૃત્ત થઈશ.
+                નિવૃત્તિમાં પણ જીવનનો આનંદ માણો
+
+                તેને જાળવી રાખો.
+
+                હવે કોઈ ટેન્શન નહીં, માત્ર પેન્શન, તમારા અમૂલ્ય સંબંધ માટે દર મહિને 1 લાખ રૂપિયા મેળવો</p>
+        </div>
+        <div class="job">
+            <img class="service-img" src="./insurance-services.jpg" alt="Investment Planning Image">
+            <h3 class="planing">All Type Of Insurance</h3>
+            <p class="desciption">Customized investment plans to help clients maximize returns while managing risk
+                effectively.</p>
+        </div>
+        <div class="job">
+            <img class="service-img" src="./MF.jpg" alt="Investment Planning Image">
+            <h3 class="planing">Investment Planning</h3>
+            <p class="desciption"><pre> SIP સાથે તમારા સપનાને જીવવાની સ્વતંત્રતા આપો...
+      વિદેશમાં રજાઓ ગાળવાનું તમારું સ્વપ્ન પૂર્ણ કરો...
+           આવો SIP શરૂ કરો.
+            </pre></p>
+        </div>
+        <!-- Include other services here -->
+    </div>
+
+    <div class="container">
+        <h2>Trusted Companies</h2>
+        <hr>
+        <br>
+        <div class="company-img-container">
+            <img class="company-img"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Life_Insurance_Corporation_of_India_%28logo%29.svg/1200px-Life_Insurance_Corporation_of_India_%28logo%29.svg.png"
+                alt="Company 1">
+            <img class="company-img"
+                src="https://seeklogo.com/images/S/star-health-insurance-logo-A22C809A56-seeklogo.com.png"
+                alt="Company 2">
+            <img class="company-img" src="https://www.fundzbazar.com/images/metaFBLogo.png" alt="Company 3">
+            <img class="company-img"
+                src="data:image/png;base64,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"
+                alt="Company 4">
+            <img class="company-img" src="https://seeklogo.com/images/U/upstox-logo-26AC71FF50-seeklogo.com.png"
+                alt="Company 3">
+            <img class="company-img" src="https://5.imimg.com/data5/WM/CI/AE/SELLER-37798985/uti-png-500x500.png"
+                alt="Company 3">
+            <img class="company-img" src="https://finoplus.in/wp-content/uploads/2022/06/Motor-Insurance.png"
+                alt="Company 3">
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <h2>Contact Me</h2>
+        <hr>
+        <div class="contact-info">
+            <p>Mobile: 7600004548</p>
+            <p>Phone: 9825504548</p>
+            <p>Address: 31 Ottamba Shopping Center Opp Vidhyanikean School Khodiyarnagar Road Ahmedabad -382350</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
